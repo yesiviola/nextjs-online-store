@@ -30,8 +30,8 @@ const Banner = () => {
                     src=" https://www.filmsperu.pe/wp-content/uploads/2023/01/marcas-mas-caras-del-mundo.jpg" 
                     alt=""
                     className="object-cover"
-                    width={300}
-                    height={200}
+                    width={500}
+                    height={300}
                    
                     />
                 </div>
