@@ -31,7 +31,7 @@ const Header = () => {
    <div className='flex  items-center bg-cutt_colors p-1 flex-grow py-2' >
     <div className='mr-2 flex items-center sm:flex-grow-0'>
         <Image
-        src='/Black And White Simple Y2K Fashion logo.png'
+        src='/Black And White Simple Y2K Fashion Logo.png'
         width={120}
         height={50}
         className='object-contain cursor-pointer'
