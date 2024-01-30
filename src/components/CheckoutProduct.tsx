@@ -39,8 +39,8 @@ const CheckoutProduct = ({
 
     return (
         <div className="grid grid-cols-5">
-            <div className='relative h-28 w-32'>
-            <Image src={image}  alt="" className='object-cover' width={300} height={200}/>
+            <div className='relative h-28 w-34'>
+            <Image src={image}  alt="" className='object-cover' width={400} height={300}/>
             </div>
             <div className="col-span-2 mx-5">
                 <p>{title}</p>
@@ -49,7 +49,7 @@ const CheckoutProduct = ({
                     <StarIcon className="h-5 text-yellow-500" />
                     <StarIcon className="h-5 text-yellow-500" />
                 </div>
-                <p className="text-xs mt-3 mb-3 line-clamp-4">{description}</p>
+                <p className="text-xs mt-3 mb-3 line-clamp-3">{description}</p>
                 <p className="mt-10 text-cutt_colors-light text-lg font-bold">
                     {accounting.formatMoney(price, "USD")}
                 </p>
